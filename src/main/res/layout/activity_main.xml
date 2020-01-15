@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/text_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/button_left"
+        android:layout_marginTop="-50dp"
+        android:text="null"
+        android:textSize="40dp"/>
+
+    <Button
+        android:id="@+id/button_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="150dp"
+        android:text="null" />
+
+    <TextView
+        android:id="@+id/text_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="null"
+        android:layout_alignTop="@+id/button_right"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="-50dp"
+        android:textSize="40dp"/>
+
+    <Button
+        android:id="@+id/button_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="150dp"
+        android:layout_alignParentRight="true"
+        android:text="null" />
+
+    <TextView
+        android:id="@+id/text_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="null"
+        android:layout_alignTop="@+id/button_result"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-50dp"
+        android:textSize="40dp"
+        />
+
+    <Button
+        android:id="@+id/button_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="null" />
+
+</RelativeLayout>
